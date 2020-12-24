@@ -5,9 +5,11 @@ function setup() {
   fixedRect=createSprite(400, 100, 50, 80);
   fixedRect.shapeColor = "green";
   fixedRect.velocityY = 5 ;
+  fixedRect.debug = true ;
   movingRect=createSprite(400,600,80,30);
   movingRect.shapeColor = "green";
   movingRect.velocityY = -5 ;
+  movingRect.debug = true ;
 }
 
 function draw() {
